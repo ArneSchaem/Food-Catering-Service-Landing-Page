@@ -4,7 +4,7 @@ import {
   IconBrandTwitter,
   IconBrandYoutube,
 } from "@tabler/icons-react";
-import logo from "/Users/arne/Documents/GitHub/logistics-landing-page/src/images/footer/chef-hat.png";
+import logo from "/Users/arne/Documents/GitHub/Food-Catering-Service-Landing-Page/src/images/footer/chef-hat.png";
 
 function Footer() {
   return (

@@ -15,6 +15,7 @@ html {
 body {
   position: relative;
   font-family: $big-font;
+  font-size: 1.6rem;
 }
 
 a {
@@ -22,7 +23,6 @@ a {
 }
 
 .container {
-  max-width:1440px !important;
+  max-width: 1440px !important;
   margin: 0 auto !important;
 }
-
