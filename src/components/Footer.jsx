@@ -22,17 +22,16 @@ function Footer() {
                   <IconBrandFacebook color="#FFFFFF" className="footer-icon" />
                 </div>
                 <div className="footer-content-row-layout__left__socials__circle__norm">
-                  <IconBrandInstagram color="#323434"className="footer-icon" />
+                  <IconBrandInstagram color="#323434" className="footer-icon" />
                 </div>
                 <div className="footer-content-row-layout__left__socials__circle__norm">
-                  <IconBrandTwitter color="#323434"className="footer-icon" />
+                  <IconBrandTwitter color="#323434" className="footer-icon" />
                 </div>
                 <div className="footer-content-row-layout__left__socials__circle__norm">
-                  <IconBrandYoutube color="#323434"className="footer-icon" />
+                  <IconBrandYoutube color="#323434" className="footer-icon" />
                 </div>
               </div>
             </div>
-
             <div className="footer-content-row-right"></div>
           </div>
         </div>

@@ -47,7 +47,7 @@ function Navbar() {
               <a href="#home">About</a>
             </li>
             <li>
-              <a href="#Menu">Menus</a>
+              <a href="#menu">Menus</a>
             </li>
             <li>
               <a href="#choose-us">Pricing</a>
