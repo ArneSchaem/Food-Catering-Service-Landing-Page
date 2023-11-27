@@ -1,0 +1,16 @@
+@use "../global/" as *;
+
+.Pricing-section {
+  max-width: 144rem;
+  height: auto;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.Pricing-content {
+  display: flex;
+  padding: 6.4rem 10rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}

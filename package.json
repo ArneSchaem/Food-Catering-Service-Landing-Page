@@ -12,7 +12,9 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.19.0",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
     "scss": "^0.2.4",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -20,7 +22,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "build-css": "node-sass src/styles -o dist/styles",
-
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

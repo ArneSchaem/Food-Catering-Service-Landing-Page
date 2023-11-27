@@ -3,12 +3,9 @@ import { IconMinus } from "@tabler/icons-react";
 
 const CustomButtonSmallMinus = ({ onButtonClick }) => {
   return (
- 
-
-<button className="custom-button-minus" onClick={onButtonClick}>
-<IconMinus color="#FFF" id="plus" size={18} />
-</button>
-
+    <button className="custom-button-minus" onClick={onButtonClick}>
+      <IconMinus color="#FFF" id="plus" size={18} />
+    </button>
   );
 };
 
