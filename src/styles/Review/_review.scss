@@ -1,0 +1,57 @@
+@use "../global/" as *;
+
+.Review-section {
+  max-width: 144rem;
+  height: auto;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.Review-content {
+  display: flex;
+  max-width: 144rem;
+  padding: 6.4rem 10rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.Review-content-container-text {
+  display: flex;
+  width: 49.2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+
+  h1 {
+    align-self: stretch;
+    color: #323434;
+    text-align: center;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5.2rem;
+  }
+
+  h2 {
+    align-self: stretch;
+    color: #888;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.4rem;
+    letter-spacing: 0.015rem;
+  }
+}
+
+.Review-content-container-layout {
+
+}
+.Review-content-container-button {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.6rem;
+}

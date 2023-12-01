@@ -32,10 +32,11 @@ nav {
   left: 0;
   z-index: 200;
   max-width: 100%;
+  background-color: white;
   padding: 3.2rem 10rem;
 }
 nav a {
-  color: #874ec0;
+  color: white;
 }
 
 .navbar {
@@ -92,7 +93,6 @@ nav a {
 }
 
 .sticky-nav {
-  background-color: #ffffff;
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.16);
   position: fixed;
 }
@@ -105,9 +105,9 @@ nav a {
   left: -100%;
   width: 100%;
   height: 100vh;
-  background-color: #874ec0;
+  background-color: white;
   z-index: 9999999;
-  color: #ffffff;
+  color: black;
   font-size: 3rem;
   text-align: center;
   align-items: center;
@@ -121,19 +121,19 @@ nav a {
   list-style: none;
 }
 .mobile-nav ul a {
-  color: #ffffff;
+  color: #9ad983;
   font-weight: 600;
 }
 .mobile-nav ul a:hover {
   transition: all 0.3s;
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;
-  background-image: rgb(158, 158, 158);
+  color: black;
 }
 
 .mobile-up {
   left: 0;
+  background-color: white;
 }
 
 .close-mobile {
@@ -141,13 +141,14 @@ nav a {
   top: 3rem;
   right: 3rem;
   cursor: pointer;
+  color: #9ad983;
 }
 .close-mobile:hover {
   transition: all 0.3s;
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;
-  background-image: rgb(158, 158, 158);
+  color: black;
+  background-color: black;
 }
 
 .hero-section {
@@ -158,7 +159,7 @@ nav a {
 
 .hero-content {
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -661,6 +662,7 @@ footer {
 }
 
 .row-layout {
+  flex-direction: row;
   display: flex;
   align-items: flex-start;
   gap: 3.2rem;
@@ -701,8 +703,287 @@ footer {
 
 .Pricing-content {
   display: flex;
+  max-width: 144rem;
   padding: 6.4rem 10rem;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.Pricing-Text {
+  display: flex;
+  width: 49.2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+.Pricing-Text h1 {
+  align-self: stretch;
+  color: #323434;
+  text-align: center;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.2rem;
+}
+.Pricing-Text h2 {
+  align-self: stretch;
+  color: #888;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.4rem;
+  letter-spacing: 0.015rem;
+}
+
+.Pricing-content-container-main {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 3.2rem;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.Pricing-content-container {
+  display: flex;
+  width: 60.4rem;
+  height: auto;
+  padding: 3.2rem 2.4rem;
   align-items: flex-start;
   gap: 1rem;
+  border-radius: 1.2rem;
+  background: #9ad983;
+  box-shadow: 0px 8px 24px 0px rgba(169, 230, 169, 0.24);
+}
+
+.Pricing-container-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.6rem;
+  flex: 1 0 0;
+}
+.Pricing-container-title h1 {
+  color: #fff;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4rem;
+}
+.Pricing-container-title h2 {
+  color: #fff;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.2rem;
+}
+
+.Pricing-container-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.8rem;
+  flex: 1 0 0;
+}
+.Pricing-container-list__items {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.Pricing-container-list__items h1 {
+  color: #888888;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: 0.01rem;
+}
+
+.Pricing-container-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex: 1 0 0;
+  align-self: stretch;
+  justify-content: center;
+}
+.Pricing-container-button__button {
+  border-radius: 1.2rem;
+  background: #323434;
+  display: flex;
+  height: 5.6rem;
+  padding: 1.6rem;
+  align-items: center;
+  gap: 0.8rem;
+}
+.Pricing-container-button__button h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: 0.01rem;
+}
+
+.showcase-section {
+  max-width: 144rem;
+  height: auto;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.showcase-content {
+  display: flex;
+  max-width: 144rem;
+  padding: 6.4rem 10rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4.8rem;
+}
+
+.showcase-content-container {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 3.2rem;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+.showcase-content-container__img {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 3.2rem;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.showcase-content-container-top {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  gap: 3.2rem;
+}
+.showcase-content-container-top__img {
+  display: block;
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 3.2rem;
+  align-self: stretch;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.showcase-content-container-text {
+  display: flex;
+  width: 49.8rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+.showcase-content-container-text h1 {
+  align-self: stretch;
+  color: #323434;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.2rem;
+}
+.showcase-content-container-text h2 {
+  align-self: stretch;
+  color: #888;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.4rem;
+  letter-spacing: 0.015rem;
+}
+.showcase-content-container-text button {
+  display: flex;
+  border: none;
+  width: 17.3rem;
+  height: 5.6rem;
+  padding: 1.6rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  border-radius: 1.2rem;
+  background: #9ad983;
+  box-shadow: 0px 8px 24px 0px rgba(169, 230, 169, 0.24);
+}
+.showcase-content-container-text span {
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: 0.01rem;
+}
+
+.showcase-content-img {
+  display: none;
+  width: 10rem;
+  height: 30rem;
+  align-items: center;
+  border-radius: 1.2rem;
+}
+
+.Review-section {
+  max-width: 144rem;
+  height: auto;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.Review-content {
+  display: flex;
+  max-width: 144rem;
+  padding: 6.4rem 10rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.Review-content-container-text {
+  display: flex;
+  width: 49.2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+.Review-content-container-text h1 {
+  align-self: stretch;
+  color: #323434;
+  text-align: center;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.2rem;
+}
+.Review-content-container-text h2 {
+  align-self: stretch;
+  color: #888;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.4rem;
+  letter-spacing: 0.015rem;
+}
+
+.Review-content-container-button {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.6rem;
 }/*# sourceMappingURL=styles.css.map */
